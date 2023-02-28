@@ -1,3 +1,3 @@
-const { isPrimeNumber } = require('./src/isPrimeNumber')
+const { isPrimeNumber } = require("./src/isPrimeNumber");
 
 isPrimeNumber(11);
