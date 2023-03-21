@@ -1,3 +1,11 @@
-const { binarySearch } = require("./src/binarySearch");
+const { LinkedList } = require("./src/linkedList");
 
-console.log(binarySearch([21, 2, 35, 52, 211, 1], 52));
+const linkedList = new LinkedList();
+
+linkedList.addToTail(12)
+console.log('linkedList: add to tail', linkedList);
+
+console.log(linkedList.getSize())
+
+linkedList.removeFromTail(12)
+console.log('linkedList: remove from tail', linkedList);
